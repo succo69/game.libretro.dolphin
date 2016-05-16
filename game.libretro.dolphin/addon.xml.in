@@ -8,11 +8,7 @@
 		<import addon="game.controller.nes" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-			library_android="game.libretro.dolphin.so"
-			library_linux="game.libretro.dolphin.so"
-			library_osx="game.libretro.dolphin.dylib"
-			library_windx="game.libretro.dolphin.dll"
-			library_wingl="game.libretro.dolphin.dll">
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>NGC</platforms>
 		<extensions>ngc</extensions>
 		<supports_vfs>true</supports_vfs>
@@ -21,6 +17,6 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Dolphin v4.0.0</summary>
 		<description>Source: https://github.com/libretro/dolphin</description>
-		<platform>all</platform>
+		<platform>@PLATFORM@</platform>
 	</extension>
 </addon>
