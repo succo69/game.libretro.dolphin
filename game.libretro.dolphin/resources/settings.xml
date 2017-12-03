@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="dolphin_dsp_mode" values="HLE|LLE recompiler|LLE interpreter" default="HLE"/>
+		<setting label="30002" type="select" id="dolphin_efb_ignore_format_changes" values="ON|OFF" default="ON"/>
+		<setting label="30003" type="select" id="dolphin_fastmem" values="ON|OFF" default="ON"/>
+		<setting label="30004" type="select" id="dolphin_internal_resolution" values="1x (640x528)|1.5x (960x792)|2x (1280x1056)|2.5x (1600x1320)|3x (1920x1584)|4x (2560x2112)|5x (3200x2640)|6x (3840x3168)|7x (4480x3696)|8x (5120x4224)|9x (5760x4752)|10x (6400x5280)|11x (7040x5808)|12x (7680x6336)|13x (8320x6864)|14x (8960x7392)|15x (9600x7920)|16x (10240x8448)|17x (10880x8976)|18x (11520x9504)|19x (12160x10032)|Custom" default="1x (640x528)"/>
+		<setting label="30005" type="select" id="dolphin_pal60" values="OFF|ON" default="OFF"/>
+		<setting label="30006" type="select" id="dolphin_progressive_scan" values="OFF|ON" default="OFF"/>
+		<setting label="30007" type="select" id="dolphin_renderer" values="Hardware|Software|Null" default="Hardware"/>
+		<setting label="30008" type="select" id="dolphin_scaled_efb_copy" values="OFF|ON" default="OFF"/>
+		<setting label="30009" type="select" id="dolphin_skip_efb_access_from_cpu" values="OFF|ON" default="OFF"/>
+		<setting label="30010" type="select" id="dolphin_store_efb_copies_to_texture_only" values="ON|OFF" default="ON"/>
+	</category>
+</settings>
