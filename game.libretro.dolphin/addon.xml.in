@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.dolphin"
-		name="GameCube / Wii (Dolphin)"
+		name="Nintendo - GameCube / Wii (Dolphin)"
 		version="0.01.0"
 		provider-name="Libretro">
 	<requires>
@@ -13,12 +13,10 @@
 		<extensions>elf|dol|gcm|iso|tgc|wbfs|ciso|gcz|wad</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
-		<supports_keyboard>false</supports_keyboard>
-		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">GameCube / Wii (Dolphin) v0.01</summary>
-		<description>Source: https://github.com/libretro/dolphin
+		<summary lang="en_GB">Nintendo - GameCube / Wii (Dolphin) v0.01</summary>
+		<description lang="en_GB">Source: https://github.com/libretro/dolphin
 
 Supported files: .elf, .dol, .gcm, .iso, .tgc, .wbfs, .ciso, .gcz, .wad</description>
 		<license>GPLv2+</license>
