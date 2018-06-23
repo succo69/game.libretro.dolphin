@@ -10,13 +10,15 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>NGC</platforms>
-		<extensions></extensions>
+		<extensions>elf|dol|gcm|iso|tgc|wbfs|ciso|gcz|wad</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Nintendo - GameCube / Wii (Dolphin)</summary>
-		<description lang="en_GB">Source: https://github.com/libretro/dolphin</description>
+		<summary lang="en_GB">Nintendo - GameCube / Wii (Dolphin) v0.01</summary>
+		<description lang="en_GB">Source: https://github.com/libretro/dolphin
+
+Supported files: .elf, .dol, .gcm, .iso, .tgc, .wbfs, .ciso, .gcz, .wad</description>
 		<license>GPLv2+</license>
 		<platform>@PLATFORM@</platform>
 	</extension>
