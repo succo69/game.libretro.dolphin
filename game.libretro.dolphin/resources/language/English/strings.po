@@ -21,42 +21,90 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "DSP mode"
+msgid "CPU Clock Rate"
 msgstr ""
 
 msgctxt "#30002"
-msgid "Ignore EFB Format Changes"
+msgid "CPU Core"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Fastmem"
+msgid "DSP HLE"
 msgstr ""
 
 msgctxt "#30004"
-msgid "Internal resolution (restart)"
+msgid "DSP Enable JIT"
 msgstr ""
 
 msgctxt "#30005"
-msgid "PAL60"
+msgid "EFB Scale"
 msgstr ""
 
 msgctxt "#30006"
-msgid "Progressive scan (HD)"
-msgstr ""
-
-msgctxt "#30007"
-msgid "Renderer"
-msgstr ""
-
-msgctxt "#30008"
 msgid "Scaled EFB Copy"
 msgstr ""
 
+msgctxt "#30007"
+msgid "Store EFB Copies on GPU"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Disable EFB to VRAM"
+msgstr ""
+
 msgctxt "#30009"
-msgid "Skip EFB Access From CPU"
+msgid "Fastmem"
 msgstr ""
 
 msgctxt "#30010"
-msgid "Store EFB Copies To Texture Only"
+msgid "GPU Texture Decoding"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Language"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Log Level"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Max Anisotropy"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Audio Mixer Rate"
+msgstr ""
+
+msgctxt "#30015"
+msgid "PAL60"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Progressive Scan"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Renderer"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Sensor Bar Position"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Shader Compilation Mode"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Wait for Shaders before Starting"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Widescreen"
+msgstr ""
+
+msgctxt "#30022"
+msgid "WideScreen Hack"
 msgstr ""
 

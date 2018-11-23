@@ -1,1 +1,1 @@
-dolphin https://github.com/libretro/dolphin master
+dolphin https://github.com/libretro/dolphin/archive/a5bce7d67abeaa9142d466a578ca5049197073e9.zip
