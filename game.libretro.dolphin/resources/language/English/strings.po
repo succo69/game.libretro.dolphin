@@ -107,4 +107,3 @@ msgstr ""
 msgctxt "#30022"
 msgid "WideScreen Hack"
 msgstr ""
-
